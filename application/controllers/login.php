@@ -15,6 +15,7 @@ class login extends CI_Controller
 
 	public function index()
 	{
+
 		$this->load->library('form_validation');
 		$this->form_validation->set_rules('username', 'Username', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
